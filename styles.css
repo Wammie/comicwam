@@ -43,51 +43,45 @@ body {
 .navbar-button {
     cursor:pointer;
     background-color: rgba(0,0,0,0.4);
-    border:none;
+    border:1px solid white;
     position:absolute;
     padding: 9px 6px;
+    top:0%;
 }
 #navbar-button-home {
     position:absolute;
-    padding: 1.8% 4.55%;
+    padding: 2% 7.2%;
     left:-1%;
-    top:12%;
 }
 #navbar-button-info {
     position:absolute;
-    padding: 1.8% 6%;
-    left:13%;
-    top:12%;
+    padding: 2% 7.3%;
+    left:13.4%;
 }
 #navbar-button-social {
     position:absolute;
-    padding: 1.8% 5.55%;
+    padding: 2% 7.9%;
     left:28%;
-    top:12%;
 }
 #navbar-button-news {
     position:absolute;
-    padding: 1.8% 5%;
-    left:44%;
-    top:12%;
+    padding: 2% 7.35%;
+    left:43.8%;
 }
 #navbar-button-blog {
     position:absolute;
-    padding: 1.8% 6.5%;
+    padding: 2% 8.25%;
     left:58.5%;
-    top:12%;
 }
 #navbar-button-extra {
     position:absolute;
-    padding: 1.8% 5.4%;
+    padding: 2% 7.5%;
     left:75%;
-    top:12%;
 }
 #navbar-button-sub {
     position:absolute;
-    padding: 1.8% 6.1%;
+    padding: 2% 8%;
     left:90%;
-    top:12%;
 }
 #welcome {
     background-color:#C9C9C9;
