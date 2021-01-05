@@ -11,10 +11,12 @@ body {
 }
 #logoimg {
     max-width:80%;
+    min-width:80%;
     max-height:auto;
+    min-height:auto;
 }
 #navbar {
-    background-color:#C9C9C9;
+    background-color:transparent;
     color:#363636;
     width:40%;
     margin-left:auto;
@@ -22,9 +24,64 @@ body {
     margin-top:0px;
     margin-bottom:2%;
     text-align:center;
+    position:relative;
+}
+#navbar-background {
+    max-width:100%;
+    max-height:auto;
+    min-width:100%;
+    min-height:auto;
+    z-index:1;
+}
+#navbar-buttons-row {
+    z-index:2;
+    position:absolute;
+    width:90%;
+    top:4%;
+    left:3%;
 }
 .navbar-button {
     cursor:pointer;
+    background-color: transparent;
+    border:1px solid white;
+    position:absolute;
+    padding: 9px 6px;
+    top:0%;
+}
+#navbar-button-home {
+    position:absolute;
+    padding: 2% 7.2%;
+    left:-1%;
+}
+#navbar-button-info {
+    position:absolute;
+    padding: 2% 7.3%;
+    left:13.4%;
+}
+#navbar-button-social {
+    position:absolute;
+    padding: 2% 7.9%;
+    left:28%;
+}
+#navbar-button-news {
+    position:absolute;
+    padding: 2% 7.35%;
+    left:43.8%;
+}
+#navbar-button-blog {
+    position:absolute;
+    padding: 2% 8.25%;
+    left:58.5%;
+}
+#navbar-button-extra {
+    position:absolute;
+    padding: 2% 7.5%;
+    left:75%;
+}
+#navbar-button-sub {
+    position:absolute;
+    padding: 2% 8%;
+    left:90%;
 }
 #welcome {
     background-color:#C9C9C9;
