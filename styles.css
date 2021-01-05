@@ -11,10 +11,12 @@ body {
 }
 #logoimg {
     max-width:80%;
+    min-width:80%;
     max-height:auto;
+    min-height:auto;
 }
 #navbar {
-    background-color:#C9C9C9;
+    background-color:transparent;
     color:#363636;
     width:40%;
     margin-left:auto;
@@ -22,9 +24,70 @@ body {
     margin-top:0px;
     margin-bottom:2%;
     text-align:center;
+    position:relative;
+}
+#navbar-background {
+    max-width:100%;
+    max-height:auto;
+    min-width:100%;
+    min-height:auto;
+    z-index:1;
+}
+#navbar-buttons-row {
+    z-index:2;
+    position:absolute;
+    width:90%;
+    top:4%;
+    left:3%;
 }
 .navbar-button {
     cursor:pointer;
+    background-color: rgba(0,0,0,0.4);
+    border:none;
+    position:absolute;
+    padding: 9px 6px;
+}
+#navbar-button-home {
+    position:absolute;
+    padding: 1.8% 4.55%;
+    left:-1%;
+    top:12%;
+}
+#navbar-button-info {
+    position:absolute;
+    padding: 1.8% 6%;
+    left:13%;
+    top:12%;
+}
+#navbar-button-social {
+    position:absolute;
+    padding: 1.8% 5.55%;
+    left:28%;
+    top:12%;
+}
+#navbar-button-news {
+    position:absolute;
+    padding: 1.8% 5%;
+    left:44%;
+    top:12%;
+}
+#navbar-button-blog {
+    position:absolute;
+    padding: 1.8% 6.5%;
+    left:58.5%;
+    top:12%;
+}
+#navbar-button-extra {
+    position:absolute;
+    padding: 1.8% 5.4%;
+    left:75%;
+    top:12%;
+}
+#navbar-button-sub {
+    position:absolute;
+    padding: 1.8% 6.1%;
+    left:90%;
+    top:12%;
 }
 #welcome {
     background-color:#C9C9C9;
