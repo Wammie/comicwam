@@ -42,7 +42,7 @@ body {
 }
 .navbar-button {
     cursor:pointer;
-    background-color: rgba(0,0,0,0.4);
+    background-color: transparent;
     border:1px solid white;
     position:absolute;
     padding: 9px 6px;
