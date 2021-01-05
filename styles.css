@@ -1,0 +1,67 @@
+body {
+    background-color:#5B5B5B;
+    color:#A4A4A4;
+}
+#pagelogo {
+    background-color:#707070;
+    color:#8F8F8F;
+    text-align:center;
+    margin:auto;
+    width:50%;
+}
+#logoimg {
+    max-width:80%;
+    max-height:auto;
+}
+#navbar {
+    background-color:#C9C9C9;
+    color:#363636;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:2%;
+    text-align:center;
+}
+.navbar-button {
+    cursor:pointer;
+}
+#welcome {
+    background-color:#C9C9C9;
+    color:#363636;
+    width:33%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+}
+.comic-image {
+    min-width:50%;
+    max-width:50%;
+    min-height:auto;
+    max-height:auto;
+}
+.comic-wrapper {
+    width:33%;
+    margin-bottom:3%;
+    margin-left:auto;
+    margin-right:auto;
+    border:none;
+}
+.comic-wrapper-row {
+    height:10%;
+    border:none;
+}
+.comic-cover {
+    background-color:#C9C9C9;
+    color:#363636;
+    width:50%;
+    height:100%;
+    border:none;
+}
+.comic-desc {
+    background-color:#B1B1B1;
+    color:#4E4E4E;
+    width:50%;
+    height:100%;
+    border:none;
+}
